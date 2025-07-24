@@ -1,4 +1,4 @@
-#!/run/current-system/sw/bin/bash
+#!/usr/bin/env bash
 
 # TODO: 2 get default terminal from env somehow, or figure out xdg.term-exec
 terminal="ghostty"
