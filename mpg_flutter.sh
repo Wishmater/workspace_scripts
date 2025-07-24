@@ -1,6 +1,7 @@
 #!/run/current-system/sw/bin/bash
 
-terminal = "ghostty"
+# TODO: 2 get default terminal from env somehow, or figure out xdg.term-exec
+terminal="ghostty"
 
 echo "Creating cut-vim tmux session..."
 tmux new -d -t cutrans -s cut-vim -c ~/workspaces/mpg_flutter
